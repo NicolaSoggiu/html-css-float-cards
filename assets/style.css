@@ -28,7 +28,9 @@ section{
     float: left;
     display: block;
     margin: .5em;
+    text-align: left;
 }
+
 
 .blocco img{
     float: left;
@@ -38,12 +40,21 @@ section{
 
 h5, span {
     color: white;
-    padding-top: 1em;
+}
+
+h5{
+    padding-left: 6.5em;
+    padding-top: .8em;
+}
+
+span, .email{
+    margin-top: .5em;
 }
 
 span{
     font-size: .6em;
     display: block;
+    padding-left: 9em;
 }
 
 .email{
