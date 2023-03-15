@@ -8,6 +8,7 @@
 .container{
     text-align: center;
     margin-inline: 20%;
+    max-width: 1000px;
 }
 
 h1{
@@ -20,6 +21,12 @@ section{
     margin-bottom: 2em;
 }
 
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+
 .blocco{
     width: calc(100% / 3 - 1em );
     height: 70px;
@@ -28,12 +35,13 @@ section{
     margin: .5em;
     margin-bottom: 1.5em;
     text-align: left;
+    min-width: 169px;
+    box-shadow: 0 0 10px black;
 }
 
 
 .blocco img{
     float: left;
-    width: 30%;
     height: 100%;
 }
 
